@@ -59,6 +59,9 @@ public class TestCheckerTautologies {
 		    {"or.prop", false},
 		    {"small_adder.prop", false},
 		    {"stuff.prop", false},
+		    {"ce1.prop", true},
+		    {"ce2.prop", false},
+		    {"ce3.prop", true},
 		});
 	}
 

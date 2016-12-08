@@ -1,7 +1,5 @@
 package org.snim2.checker.test;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOError;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,8 +10,12 @@ import org.snim2.checker.parser.Parser;
 public class CheckerTestHelper {
 
 	public boolean checkFile(String filename) throws IOError, IOException {
-		Parser myParser = null;
 		InputStream input = this.getClass().getResourceAsStream("/" + filename);
+		return this.checkInputStream(input);
+	}
+
+	public boolean checkInputStream(InputStream input) throws IOError, IOException {
+		Parser myParser = null;
 		myParser = new Parser(input);
 		input.close();
 		Formula formula = myParser.getAST();

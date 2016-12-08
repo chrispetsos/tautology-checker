@@ -1,0 +1,1 @@
+((A => C) AND (C => D)) => (A AND B => D)

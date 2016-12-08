@@ -1,0 +1,1 @@
+((A => D) AND (C => E1)) => (A AND (B OR C) => (A AND B) OR (D AND E1))

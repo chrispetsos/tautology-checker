@@ -65,6 +65,7 @@ public class TestCheckerTautologies {
 		    {"ce4.prop", true},
 		    {"ce5.prop", true},
 		    {"ce6.prop", true},
+		    {"ce7.prop", true},
 		});
 	}
 

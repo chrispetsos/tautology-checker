@@ -1,1 +1,1 @@
-NOT A AND NOT B => NOT A OR NOT B 
+NOT (A AND B) <=> NOT A OR NOT B 

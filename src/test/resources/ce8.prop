@@ -1,0 +1,1 @@
+(ex1Parking2 => ex1Parking1) => ((ex1EmployeeWorkingHours AND (ex1Parking1 OR (ex1Parking1 OR ex1Parking2))) => (ex1EmployeeWorkingHours AND ex1Parking2))
